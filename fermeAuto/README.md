@@ -17,9 +17,20 @@ Java • JavaFX • OOP • Simulation engine • Git
 - `data/` : images + configuration
 - `diagrammeDeClasse.mermaid` : class diagram
 
-## How to run
-> (To be filled: your Java version + command / IDE steps)
-- Recommended: run `AppFX.java` (main entry point)
+
+## Compile & Run (JavaFX)
+
+Main entry: package `MainPrincipale`.
+
+### Requirements
+- Java (JDK 17 recommended)
+- JavaFX SDK
+
+### VM options (JavaFX)
+Set the following VM options when running the project:
+
+```text
+--module-path /path/to/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml
 
 
 ## Notes
