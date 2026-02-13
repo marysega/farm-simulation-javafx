@@ -16,6 +16,22 @@ Java • JavaFX • OOP • Simulation
 - `fermeAuto/data/` : images + configuration
 - `diagrammeDeClasse.mermaid` : class diagram
 
-## Run
-> Add your Java version + how to launch (IDE or command)
-- Entry point: `MainPrincipale` / `AppFX` (update with the real main)
+## Compile & Run (JavaFX)
+
+Main entry: package `MainPrincipale`.
+
+### Requirements
+- Java (JDK 17 recommended)
+- JavaFX SDK
+
+### VM options (JavaFX)
+Set the following VM options when running the project:
+
+```text
+--module-path /path/to/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml
+
+### Quick start (IDE)
+1. Import the project in your IDE
+2. Configure JavaFX SDK
+3. Run the main class from package `MainPrincipale`
+4. Add the VM options above
