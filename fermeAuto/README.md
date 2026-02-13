@@ -35,3 +35,9 @@ Set the following VM options when running the project:
 
 ## Notes
 This repository is an academic project repackaged as a clean, reproducible GitHub portfolio project.
+
+### Quick start (IDE)
+1. Import the project in your IDE
+2. Configure JavaFX SDK
+3. Run the main class from package `MainPrincipale`
+4. Add the VM options above
